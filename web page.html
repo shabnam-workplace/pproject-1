@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First web page</title>
+    <style>
+      body{
+        background: color #f0f4f8;
+        color: #333;
+        padding: 20px;
+        line-height: 1.6;
+      }
+       h1{
+        color: #3a2c50;
+        text-align: center;
+        font-size: 40px;
+        } 
+       p{
+        max-width: 600px;
+        font-size: 18px;
+        text-align: left;
+       }
+       img{
+        display: block;
+        max-width:30%;
+        height: auto;
+        margin: 0 auto 20px auto;
+        border-radius: 10px;
+       }
+       a{
+        display: block;
+        text-align: center;
+        margin: 20px;
+        color: #2980b9;
+        text-decoration: none;
+        font-weight: bold;
+       }
+       button{
+        display: block;
+        margin: 30px auto;
+        padding: 10px 20px;
+        background-color: #27ae60;
+        color: greenyellow;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+       }
+       button:hover{
+        background-color: #219150;
+       }
+       h2{
+        color: #219150;
+        font-size: 22px;
+       }
+    </style>
+</head>
+<body>
+    <h1>ApexPlanet Internship Program  </h1>
+    <img src="apexplanet-low-resolution-logo-color-on-transparent-background.png">
+    <a href="https://apexplanet.in/" target="_blank">  visit apexplanet</a>
+   <h2> About the Program</h2>
+   <p>
+    Apex Planet offers internship opportunities in web and app development. These internships are remote and can be for 30 or 45 days. The company focuses on professional software, technology, and blogs. They are looking for interns in various fields, including web development with PHP & MySQL, app development,
+     and web development with HTML, CSS, and JavaScript, as well as fresher trainee roles.
+   </p>
+   <h2>Intern Indroduction </h2>
+   <img src="APSPL251852.jpg">
+   <button onclick="showMessage()">Candidate</button>
+   <script>
+    function showMessage(){
+     let Name="Shabnam Shakya";
+     let Skills="HTML,CSS,JavaScript";
+     let Duration="45 days";
+     let linkedin= "www.linkedin.com/in/shakya-shabnam050704";
+        alert(
+        "Candidate Details:\n"+
+        "Name:" + Name + "\n" +
+        "Skills:" +Skills + "\n" +
+        "Intership Duration: " + Duration +"\n" +
+        "linkedin Profile:" + linkedin
+        );
+        }
+   </script>
+   
+</body>
+</html>
+
